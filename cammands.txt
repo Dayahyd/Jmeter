@@ -1,0 +1,118 @@
+JMETER GUI
+
+The JMeter interface is divided into following sections:
+Menu Bar: 
+Toolbar: 
+Test Plan: 
+Tree View: 
+Editor: 
+Results Tree:
+Time, Logs, Users  
+
+
+TEST PLAN
+A test plan describes a series of steps JMeter will execute when run
+Tells JMeter how to test your website or app, like how many users to simulate and what actions they should perform
+-
+
+
+HOW TO CREATE FIRST JMETER TEST
+
+Step 1 - Start JMeter
+Step 2 - Create a Test Plan
+Step 3 - Create a Thread Group (Users)
+Step 4 - Add a Sampler (Http)
+Step 5 - Add Listeners
+Step 6 - Run the Test 
+-
+
+THREAD GROUP
+A Thread Group in JMeter controls how many virtual users will access your website or app during the test
+
+Step 1 - Right-click on the Test Plan, go to Add ＞ Threads (Users)＞ Thread Group
+Step 2 - Check the fields and configuration of Thread Group
+-
+
+
+SAMPLERS
+
+Step 1 - Right click on Thread Group ＞ Add ＞ Sampler
+Step 2 - Add HTTP Request Sampler
+Step 3 - Configure the Sampler to send a request to a website (e.g., Google)
+Step 4 - Check other Samplers
+-
+
+
+LISTENERS
+Capturing and Viewing Results
+
+
+Step 1 - Right click on Thread Group Or Sampler ＞ Add ＞ Listener ＞ View Results Tree
+Step 2 - Can add more Listeners
+Step 3 - Run the test (Ctrl + R )and check results in Listeners
+Step 4 - Check other Listeners
+1. View Results in Table
+2. View Results Tree
+3. Aggregate Report
+4. Graph Results
+5. Summary Report
+6. Simple Data Writer 
+-
+
+RECORDING
+
+Step 1 - Create a new Test Plan and add a Thread Group
+Step 2 - Add a Recording Controller. This is where the recorded Samplers will be placed
+Step 3 - Add an HTTP(S) Test Script Recorder
+Configure the Recorder:
+Port: Choose a port for the proxy server (e.g., 8888)
+Target Controller: Select the Recording Controller
+Requests Filtering: Exclude any unwanted requests (e.g. images, CSS)
+Step 4 - Set your browser to use JMeter as a proxy on the specified port
+Step 5 - Start the Recorder: Click the "Start" button
+Step 6 - Browse your Website: Perform the actions you want to record
+Step 7 - Go back to JMeter and click "Stop”
+
+
+USING RECORDING TEMPLATES
+
+HOW TO USE BLAZEMETER TO RECORD JMETER TESTS
+
+Step 1 - Create Blazemeter Account 
+Step 2 -Get Blazemeter Extension
+Step 3 - Login to Blazemeter
+Step 4 - Record test
+Step 5 - Save JMX
+Step 6 - Add JMX in JMeter and Run
+
+-
+
+HOW TO RUN JMETER FROM COMMAND LINE
+
+GUI consumes memory, slower
+Integrate with any external process CI CD
+How to run JMeter test from command line
+How to log results
+How to see command line help and options
+How to run from any location on your system (add in Path env variables)
+Step 1 - Open Command line ＞ Goto JMeter’s bin folder ＞ Run command
+Windows
+jmeter -n -t “location of your test file” -l “location of results file”
+Linux / Mac
+sh jmeter -n -t “location of your test file” -l “location of results file”
+-
+
+
+HOW TO CREATE HTML REPORTS FROM COMMAND LINE & GUI
+How to create html dashboard reports from command line
+How to create html dashboard reports from standalone csv result file
+Study the html dashboard reports
+How to generate from GUI
+Step 1 : Create a test plan or use existing test plan
+Step 2 : Open cmd line goto jmeter bin folder
+Step 3 : Run commands
+Create report at the end of the test
+jmeter -n -t “location of test file” -l “location of result file” -e -o “path of reports folder”
+
+Create report from a standalone csv file
+jmeter -g “location of your result file” -o “location of reports folder”
