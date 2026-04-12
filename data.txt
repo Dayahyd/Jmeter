@@ -1,0 +1,160 @@
+Types of Performance Testing
+1. Load Testing
+
+👉 Test system with expected number of users
+
+Example:
+
+1,000 users logging in at same time
+2. Stress Testing
+
+👉 Push system beyond limits
+
+Example:
+
+10,000 users → system crashes?
+3. Spike Testing
+
+👉 Sudden increase in traffic
+
+Example:
+
+Sale starts → sudden 5,000 users
+4. Endurance Testing
+
+👉 Long-duration testing
+
+Example:
+
+App runs for 24 hours continuously
+🛠️ Tools Used
+Apache JMeter
+LoadRunner
+🎯 Real-Time Example
+
+Testing an e-commerce site:
+
+Add 500 users → check page load time
+If it takes >3 seconds → performance issue
+🔐 2. Security Testing (Data Protection)
+🔍 What is it?
+
+Security testing ensures:
+
+Data is safe 🔒
+Hackers cannot break the system
+🧪 What You Check
+Unauthorized access
+Password encryption
+SQL Injection
+Data leaks
+⚠️ Common Attacks Tested
+SQL Injection
+Cross-Site Scripting (XSS)
+Brute force attacks
+🛠️ Tools Used
+OWASP ZAP
+Burp Suite
+🎯 Real-Time Example
+
+Login page:
+
+Try wrong password multiple times
+👉 Does it lock account?
+👉 If not → security issue
+🔗 3. API Testing
+🔍 What is API?
+
+API (Application Programming Interface) connects frontend and backend.
+
+👉 Example:
+
+You click “Login” → API sends data to server → returns response
+🔍 What is API Testing?
+
+Testing APIs without UI
+
+🧪 What You Check
+Status code (200, 404, 500)
+Response data
+Response time
+Data correctness
+🛠️ Tools Used
+Postman
+REST Assured
+🎯 Real-Time Example
+
+Request:
+
+POST /login
+{
+  "username": "test",
+  "password": "123"
+}
+
+Response:
+
+{
+  "status": "success"
+}
+
+👉 If response is wrong → bug
+
+📱 4. Mobile Testing
+🔍 What is it?
+
+Testing mobile apps on:
+
+Android 📱
+iOS 🍏
+🧪 What You Check
+1. Functionality
+Login works
+Buttons work
+2. Compatibility
+Works on different devices
+Works on different OS versions
+3. Usability
+Easy to use
+Touch-friendly
+4. Performance
+App speed
+Battery usage
+🛠️ Tools Used
+Appium
+Firebase Test Lab
+🎯 Real-Time Example
+
+Test a food delivery app:
+
+Order food
+Track delivery
+Make payment
+
+👉 Check if everything works smoothly on different phones
+
+🔥 Comparison (Very Important for Interviews)
+Type	Focus	Tool
+Performance Testing	Speed & load	JMeter
+Security Testing	Data safety	OWASP ZAP
+API Testing	Backend communication	Postman
+Mobile Testing	App on phones	Appium
+💡 Which One Should You Learn First?
+
+👉 Beginner Path:
+
+Manual Testing
+API Testing (VERY IMPORTANT 🔥)
+Automation Testing
+Then Performance/Security
+🚀 Career Advantage
+
+If you learn:
+
+Manual + API → Easy job entry
+Automation → High salary
+Performance/Security → Expert level 💰
+🎯 Final Tip
+
+Most companies today expect:
+👉 API + Automation knowledge together
