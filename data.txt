@@ -12,7 +12,6 @@ Example:
 
 10,000 users → system crashes?
 3. Spike Testing
-
 👉 Sudden increase in traffic
 
 Example:
