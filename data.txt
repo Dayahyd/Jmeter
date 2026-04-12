@@ -136,7 +136,6 @@ Security Testing	Data safety	OWASP ZAP
 API Testing	Backend communication	Postman
 Mobile Testing	App on phones	Appium
 💡 Which One Should You Learn First?
-
 👉 Beginner Path:
 
 Manual Testing
