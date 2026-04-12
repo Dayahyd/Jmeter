@@ -1,13 +1,11 @@
 Types of Performance Testing
 1. Load Testing
-
 👉 Test system with expected number of users
 
 Example:
 
 1,000 users logging in at same time
 2. Stress Testing
-
 👉 Push system beyond limits
 
 Example:
