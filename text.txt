@@ -1,0 +1,32 @@
+JMeter's command-line interface (CLI) mode—formerly known as Non-GUI mode—is the recommended way to run load tests because it consumes significantly fewer resources than the graphical interface. 
+Apache JMeter
+Apache JMeter
+ +1
+Basic Execution Command
+The standard command to run a test from the /bin directory is:
+bash
+jmeter -n -t [test_file.jmx] -l [results_file.jtl]
+Essential Command Flags
+Flag 	Description
+-n	Starts JMeter in CLI (Non-GUI) mode.
+-t	Path to the source .jmx script containing your test plan.
+-l	Path to the .jtl (or .csv) file where results will be recorded.
+-e	Automatically generates an HTML Dashboard Report after the test.
+-o	Output folder for the HTML report (must be empty or non-existent).
+-f	Forces deletion of existing results files or report folders before starting.
+Advanced Usage Examples
+Generate Dashboard Report from Existing Result File:
+jmeter -g [results.jtl] -o [output_folder]
+Override Script Properties at Runtime:
+Use -J to set local properties (e.g., changing thread count without opening the GUI):
+jmeter -n -t script.jmx -Jthreads=50 -l log.jtl
+Distributed Testing (Remote Execution):
+Run the test on all remote servers defined in your properties file:
+jmeter -n -t script.jmx -r 
+Apache JMeter
+Apache JMeter
+ +2
+How to Stop a Running CLI Test
+Graceful Shutdown: Run shutdown.cmd (Windows) or shutdown.sh (Linux) from the JMeter /bin folder.
+Immediate Stop: Run stoptest.cmd (Windows) or stoptest.sh (Linux) for an abrupt termination.
+Manual Kill: Press Ctrl + C in the terminal window where the test is running
