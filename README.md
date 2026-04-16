@@ -33,3 +33,28 @@ How to Stop a Running CLI Test
 Graceful Shutdown: Run shutdown.cmd (Windows) or shutdown.sh (Linux) from the JMeter /bin folder.
 Immediate Stop: Run stoptest.cmd (Windows) or stoptest.sh (Linux) for an abrupt termination.
 Manual Kill: Press Ctrl + C in the terminal window where the test is running
+
+
+
+
+
+
+Q116: Why might the candidate choose Apache JMeter over Gatling for a project?
+A116: JMeter has a GUI for building tests quickly, extensive protocol support, and a larger ecosystem of plugins.
+Explanation: Industry knowledge; the resume lists JMeter first as the primary tool.
+
+Q117: When would the candidate prefer Gatling over JMeter?
+A117: When the team prefers code-based tests (Scala), requires better performance for massive scale, or wants built-in advanced reporting.
+Explanation: Gatling's known strengths.
+
+Q118: Is LoadRunner still relevant given open-source tools like JMeter?
+A118: Yes, for large enterprises requiring certified support, extensive protocol coverage (SAP, Citrix, etc.), and integration with HP/Micro Focus ecosystems.
+Explanation: The resume includes LoadRunner, indicating enterprise experience.
+
+Q119: What is BlazeMeter's relationship to Apache JMeter?
+A119: BlazeMeter is a cloud platform that can run JMeter scripts at scale without managing infrastructure.
+Explanation: Industry knowledge; both are listed as tools.
+
+Q120: How does the candidate use Groovy in JMeter scripting?
+A120: In JSR223 Samplers to write custom logic, generate dynamic data, parse responses, and implement conditional flows faster than BeanShell.
+Explanation: The resume specifies "Groovy (JMeter scripting)."
