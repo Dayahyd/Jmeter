@@ -1,5 +1,4 @@
 JMETER GUI
-
 The JMeter interface is divided into following sections:
 Menu Bar: 
 Toolbar: 
