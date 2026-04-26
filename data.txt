@@ -4,6 +4,7 @@ Types of Performance Testing
 
 Example:
 
+
 1,000 users logging in at same time
 2. Stress Testing
 👉 Push system beyond limits
