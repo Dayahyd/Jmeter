@@ -25,7 +25,7 @@ Run the test on all remote servers defined in your properties file:
 jmeter -n -t script.jmx -r 
 Apache JMeter
 Apache JMeter
- +2
+ 
 How to Stop a Running CLI Test
 Graceful Shutdown: Run shutdown.cmd (Windows) or shutdown.sh (Linux) from the JMeter /bin folder.
 Immediate Stop: Run stoptest.cmd (Windows) or stoptest.sh (Linux) for an abrupt termination.
