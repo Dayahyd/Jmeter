@@ -17,7 +17,7 @@ Data Ingestion: Uses forwarders to send data from remote machines to indexers.
 Visualization: Creates alerts, dashboards, and graphs to visualize data patterns. 
 Splunk
 Splunk
- +5
+ 
 Background and Company
 Founded: 2003 by Michael Baum, Rob Das, and Erik Swan.
 Ownership: Acquired by Cisco Systems.
