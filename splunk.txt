@@ -1,7 +1,7 @@
 Splunk is a powerful, Cisco-owned software platform that collects, indexes, and analyzes machine-generated data from websites, applications, and devices in real-time. It provides actionable insights via visualization tools (dashboards, reports) for security, IT operations, and business analytics. Key capabilities include AI-driven analysis, log management, and a SIEM platform. 
 Splunk
 Splunk
- +4
+ 
 Core Functions and Use Cases
 Log Management & Analytics: Captures data in formats like JSON, XML, or CSV, allowing for rapid searching and indexing without a traditional database.
 Security Information and Event Management (SIEM): Used for monitoring, detecting, and responding to security threats in real-time.
@@ -9,7 +9,7 @@ IT Operations (ITOps): Monitors system health, optimizes performance, and identi
 Observability: Provides full-stack visibility to streamline workflows and improve network performance. 
 Splunk
 Splunk
- +5
+ 
 Key Components and Features
 Splunk Enterprise/Cloud: The core platform for searching and analyzing data.
 Splunk AI: Offers agentic and ML capabilities for automatic detection and operational efficiency.
