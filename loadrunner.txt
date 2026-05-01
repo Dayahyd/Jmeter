@@ -1,6 +1,7 @@
 OpenText LoadRunner is a leading, comprehensive performance testing tool used to simulate thousands of users across applications, measuring system behavior and performance under load. It helps identify bottlenecks in web, mobile, and enterprise apps before they go live. Key components include VuGen (scripting), Controller (test execution), and Analysis (reporting)
 
 
+
 Key Aspects of LoadRunner:
 Protocol Support: Supports a wide range of technologies, including HTTP/S, Java, .NET, SQL, Citrix, and more.
 Components:
