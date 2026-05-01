@@ -9,6 +9,7 @@ Results Tree:
 Time, Logs, Users  
 
 
+
 TEST PLAN
 A test plan describes a series of steps JMeter will execute when run
 Tells JMeter how to test your website or app, like how many users to simulate and what actions they should perform
