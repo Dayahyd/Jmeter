@@ -8,6 +8,7 @@ bash
 jmeter -n -t [test_file.jmx] -l [results_file.jtl]
 Essential Command Flags
 Flag 	Description
+
 -n	Starts JMeter in CLI (Non-GUI) mode.
 -t	Path to the source .jmx script containing your test plan.
 -l	Path to the .jtl (or .csv) file where results will be recorded.
