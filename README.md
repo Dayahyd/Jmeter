@@ -3,9 +3,6 @@
 
 JMeter's command-line interface (CLI) mode—formerly known as Non-GUI mode—is the recommended way to run load tests because it consumes significantly fewer resources than the graphical interface. 
 Apache JMeter
-Apache JMeter
-
- 
 Basic Execution Command
 The standard command to run a test from the /bin directory is:
 bash
