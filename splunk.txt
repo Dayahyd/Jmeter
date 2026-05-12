@@ -1,6 +1,5 @@
 Splunk is a powerful, Cisco-owned software platform that collects, indexes, and analyzes machine-generated data from websites, applications, and devices in real-time. It provides actionable insights via visualization tools (dashboards, reports) for security, IT operations, and business analytics. Key capabilities include AI-driven analysis, log management, and a SIEM platform. 
 Splunk
-Splunk
 
  
 Core Functions and Use Cases
