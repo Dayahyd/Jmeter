@@ -6,6 +6,7 @@ Apache JMeter: The industry standard for protocol-heavy testing. It features a c
 Grafana k6: A developer-centric tool written in Go where tests are written entirely in JavaScript or TypeScript. It features a fast command-line execution engine built specifically for continuous integration (CI/CD) pipelines.
 Gatling: An asynchronous, high-concurrency tool that uses a code-first approach supporting Java, Kotlin, and Scala. It simulates thousands of virtual users on a single machine while using minimal system resources.
 Locust: A Python-based load testing framework where user behavior is defined completely in standard Python scripts. It is highly favored by engineering teams deeply integrated into the Python ecosystem.
+
 ☁️ Managed & Commercial Cloud PlatformsThese platforms reduce infrastructure setup pains by offering hosted distributed load generation, sophisticated real-time dashboards, and advanced reporting features.
 BlazeMeter by Perforce: A multi-stack cloud commercial platform that extends open-source scripting. It allows users to run existing scripts from JMeter, Gatling, or Locust natively in the cloud.
 OpenText LoadRunner: An enterprise-grade heavyweight that supports a massive catalog of legacy and modern protocols. It provides deep cross-referenced analysis and detailed reporting for massive, complex software architectures.
