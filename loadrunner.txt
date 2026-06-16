@@ -7,6 +7,7 @@ Components:
 Virtual User Generator (VuGen): Captures user actions into scripts.
 Controller: Manages, schedules, and runs scenarios to simulate real-world loads.
 Analysis: Generates detailed reports to visualize bottlenecks and test results.
+
 Deployment: Flexible deployment options, including on-premises, cloud, and Dockerized environments.
 Features: Features patented auto-correlation to quickly identify performance issues.
 Pros: Highly scalable, supports complex protocols, and provides in-depth analytics.
