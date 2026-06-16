@@ -10,5 +10,6 @@ Analysis: Generates detailed reports to visualize bottlenecks and test results.
 
 Deployment: Flexible deployment options, including on-premises, cloud, and Dockerized environments.
 Features: Features patented auto-correlation to quickly identify performance issues.
+
 Pros: Highly scalable, supports complex protocols, and provides in-depth analytics.
 Cons: Expensive licensing compared to open-source tools and can be complex to manage. 
